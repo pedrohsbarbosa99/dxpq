@@ -8,8 +8,8 @@ setup(
     long_description_content_type="text/markdown",
     author="Pedro Barbosa",
     author_email="pedrohsbarbosa99@gmail.com",
-    url="https://github.com/pedrohsbarbosa99/dxpq_ext",
-    packages=["src"],
+    url="https://github.com/pedrohsbarbosa99/dxpq",
+    packages=["dxpq"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
