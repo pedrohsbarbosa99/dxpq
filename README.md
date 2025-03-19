@@ -174,7 +174,7 @@ Build dxpq from the source and intsall dependencies:
     ```
 
 3. **Install the dependencies:**
-	**Using https://pypi.org/project/dxpq/:**
+	**Using https://pypi.org/project/pip:**
 
 	```sh
 	❯ pip install -r requirements.txt, requirements-dev.txt
