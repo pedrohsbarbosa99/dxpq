@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="dxpq",
-    version="0.0.1",
+    version="0.0.3",
     description="A Python wrapper for PostgreSQL interaction using a C extension",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -15,5 +15,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=["dxpq_ext==0.0.1"],
     python_requires=">=3.6",  # TODO: include tests
 )
