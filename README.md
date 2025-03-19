@@ -3,7 +3,7 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<img src="https://iili.io/3xYA8iu.png" width="40%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="https://iili.io/3xVmRY7.png" width="40%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
 
 # Simple Python Wrapper for postgres connection.
 
