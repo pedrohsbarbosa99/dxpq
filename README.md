@@ -88,66 +88,6 @@ Ideal for those seeking a minimalist solution focused only on essential database
     └── requirements.txt
 ```
 
-### Project Index
-
-<details open>
-	<summary><b><code>DXPQ/</code></b></summary>
-	<!-- __root__ Submodule -->
-	<details>
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b>⦿ __root__</b></code>
-			<table style='width: 100%; border-collapse: collapse;'>
-			<thead>
-				<tr style='background-color: #f8f9fa;'>
-					<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-					<th style='text-align: left; padding: 8px;'>Summary</th>
-				</tr>
-			</thead>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/pedrohsbarbosa99/dxpq/blob/master/requirements.txt'>requirements.txt</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/pedrohsbarbosa99/dxpq/blob/master/requirements-dev.txt'>requirements-dev.txt</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/pedrohsbarbosa99/dxpq/blob/master/pyproject.toml'>pyproject.toml</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-			</table>
-		</blockquote>
-	</details>
-	<!-- dxpq Submodule -->
-	<details>
-		<summary><b>dxpq</b></summary>
-		<blockquote>
-			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b>⦿ dxpq</b></code>
-			<table style='width: 100%; border-collapse: collapse;'>
-			<thead>
-				<tr style='background-color: #f8f9fa;'>
-					<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-					<th style='text-align: left; padding: 8px;'>Summary</th>
-				</tr>
-			</thead>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/pedrohsbarbosa99/dxpq/blob/master/dxpq/cursor.py'>cursor.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/pedrohsbarbosa99/dxpq/blob/master/dxpq/connection.py'>connection.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-			</table>
-		</blockquote>
-	</details>
-</details>
-
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -187,6 +127,15 @@ Run the project with:
 **Using [pip](https://pypi.org/project/pip/):**
 ```sh
 pip install dxpq
+```
+
+```python
+import dxpq
+
+connection = dxpq.Connection("postgresql://postgres:postgres@localhost:5432/postgres")
+with connection.cursor() as cursor:
+    cursor.execute("select 1")
+    cursor.fetchall()
 ```
 
 ### Testing
