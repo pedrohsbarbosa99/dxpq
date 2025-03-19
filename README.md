@@ -58,7 +58,6 @@ Ideal for those seeking a minimalist solution focused only on essential database
 
 ## Features
 
-<code>
 - **Database Connection**: Easily establish a connection to a PostgreSQL database using a connection string.
 
 - **Cursor Management**: Create and manage cursors for executing SQL queries. Fetch all results or a single row, with support for different result formats (e.g., dictionary-style results).
@@ -70,7 +69,7 @@ Ideal for those seeking a minimalist solution focused only on essential database
 - **Cursor Types**: Supports different cursor types, such as dictionary-style results, for easier access to columns by name.
 
 - **Clean Resource Management**: Automatically close database connections and cursors when done, either through context management or explicit cleanup with `close()` and `__del__` methods.
-</code>
+
 
 
 ---
