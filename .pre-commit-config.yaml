@@ -1,0 +1,21 @@
+---
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: debug-statements
+  - repo: https://github.com/akaihola/darker
+    rev: 1.7.3
+    hooks:
+      - id: darker
+        args: [--isort]
+        additional_dependencies:
+          - black
+          - isort
+  - repo: https://github.com/hadialqattan/pycln
+    rev: v2.5.0
+    hooks:
+      - id: pycln
+        args: [--config=pyproject.toml]
