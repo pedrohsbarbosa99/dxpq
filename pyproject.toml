@@ -9,7 +9,7 @@ description = "A Python wrapper for PostgreSQL interaction using a C extension"
 readme = "README.md"
 requires-python = ">=3.6"
 dependencies = [
-    "dxpq_ext==0.0.1"
+    "dxpq_ext==0.0.2"
 ]
 authors = [
     {name = "Pedro Barbosa", email = "pedrohsbarbosa99@gmail.com"}
